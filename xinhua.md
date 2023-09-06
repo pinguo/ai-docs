@@ -1,5 +1,5 @@
 # 新华社图片处理
-**注：以下所有接口请求均需要在Header中设置Authorization，其值可通过[JWT Token接口](123)获得**
+**注：以下所有接口请求均需要在Header中设置Authorization，其值可通过[JWT Token接口](./token.md)获得**
 
 ![时序图](xinhua001.png)
 
