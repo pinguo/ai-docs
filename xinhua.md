@@ -189,6 +189,7 @@ header
 ## 获取异步任务处理结果（无水印图）
 
 > 此接口返回无水印图后会执行扣次数逻辑（同一个id只会扣一次）
+
 POST /v1/image/unwatermark/{id:string}
 
 
