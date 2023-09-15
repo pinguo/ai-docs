@@ -151,7 +151,7 @@ header
 
 ## 获取异步任务处理结果（有水印图）
 
-POST /v1/image/watermark/{id:string}
+GET /v1/image/watermark/{id:string}
 
 header
 ```
