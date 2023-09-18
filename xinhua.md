@@ -71,7 +71,7 @@ hash_hmac("sha256", info, SK) // 输出16进制字符串
 
 ## 获取七牛文件上传Token
 
-GET /v1/upload/token
+POST /v1/upload/token
 
 header
 ```
