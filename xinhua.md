@@ -32,6 +32,11 @@
 
 POST /v1/token/jwt
 
+header
+```
+"Content-Type":"application/json"
+```
+
 **请求参数**
 ```json
 {
@@ -99,6 +104,7 @@ POST /v1/upload/token
 
 header
 ```
+"Content-Type":"application/json"
 "Authorization":"Bearer 获取的jwttoken"
 ```
 
@@ -219,6 +225,7 @@ POST /v1/image/unwatermark/{id:string}
 
 header
 ```
+"Content-Type":"application/json"
 "Authorization":"Bearer 获取的jwttoken"
 ```
 
