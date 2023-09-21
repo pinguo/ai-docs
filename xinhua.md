@@ -3,6 +3,30 @@
 
 生产环境接口地址:https://xinhua-api.camera360.com/
 
+## 错误处理
+1、http状态码=200时，响应body为接口对应响应数据
+
+2、http状态码!=200时，响应body统一为如下结构
+```json
+{
+    "code":403,
+    "message":"invalid authorization token"
+}
+```
+
+3、http状态码=450时，表示响应体的code值为自定义状态码，具有业务含义
+
+|状态码|描述|
+|-|-|
+|200|接口正常响应|
+|400|请求参数错误|
+|402|余额不足|
+|403|身份认证Token无效|
+|404|资源找不到|
+|500|服务器异常|
+|502|网关错误|
+
+
 ## 获取JWTToken
 **注：以下所有接口请求均需要在Header中设置Authorization:Bearer JWTToken**
 
