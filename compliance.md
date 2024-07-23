@@ -1,7 +1,8 @@
-# 新华社图片处理
-![时序图](xinhua001.png)
+# 图片合规检测&处理接口说明文档
+![时序图](img001.png)
 
-生产环境接口地址:https://xinhua-api.camera360.com/
+通用测试地址：https://compliance-test.pinguo.cn
+正式接入地址：联系管理员
 
 ## 错误处理
 1、http状态码=200时，响应body为接口对应响应数据
